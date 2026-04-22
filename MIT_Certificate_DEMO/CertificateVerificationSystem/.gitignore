@@ -29,3 +29,10 @@
 
 # Snapshot cheatcodes output
 /snapshots
+
+# Ignore parent directories and external folders
+../../
+../
+Food-Traceability/
+.states/
+*.rar
