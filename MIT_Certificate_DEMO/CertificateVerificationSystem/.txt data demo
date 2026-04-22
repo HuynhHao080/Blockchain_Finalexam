@@ -1,0 +1,27 @@
+🎯 1. DATA CHỨNG CHỈ (COPY DÙNG LUÔN)
+🟢 Case 1 — Sinh viên IT
+Họ tên: Nguyen Van A
+Mã học viên: SV001
+Khóa học: Blockchain Development
+Giảng viên: MIT Blockchain Lab
+Wallet: (ví MetaMask của bạn)
+🟢 Case 2 — AI Engineer
+Họ tên: Tran Thi B
+Mã học viên: SV002
+Khóa học: Artificial Intelligence
+Giảng viên: Dr. Andrew Ng
+Wallet: (dùng account #1)
+🟢 Case 3 — Cyber Security
+Họ tên: Le Minh C
+Mã học viên: SV003
+Khóa học: Cyber Security
+Giảng viên: MIT Security Team
+Wallet: (account khác)
+🟢 Case 4 — Fake / Test
+Họ tên: Hacker Fake
+Mã học viên: SV999
+Khóa học: Fake Certificate
+Giảng viên: Unknown
+Wallet: random
+
+👉 dùng case này để demo fail verify

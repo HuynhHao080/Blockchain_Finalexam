@@ -1,0 +1,70 @@
+{
+  "name": "CertificateVerificationSystem",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^3.0.0",
+    "@nomicfoundation/hardhat-ethers": "^4.0.8",
+    "@nomicfoundation/hardhat-ethers-chai-matchers": "^3.0.5",
+    "@nomicfoundation/hardhat-ignition": "^3.1.2",
+    "@nomicfoundation/hardhat-ignition-ethers": "^3.1.2",
+    "@nomicfoundation/hardhat-keystore": "^3.0.6",
+    "@nomicfoundation/hardhat-mocha": "^3.0.16",
+    "@nomicfoundation/hardhat-network-helpers": "^3.0.5",
+    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^3.0.4",
+    "@nomicfoundation/hardhat-typechain": "^3.0.6",
+    "@nomicfoundation/hardhat-verify": "^3.0.14",
+    "@types/chai": "^5.2.3",
+    "@types/chai-as-promised": "^8.0.2",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.19.17",
+    "chai": "^6.2.2",
+    "ethers": "^6.16.0",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "hardhat": "^3.4.0",
+    "http-server": "^14.1.1",
+    "mocha": "^11.7.5",
+    "nodemon": "^3.1.14",
+    "typescript": "~5.8.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.3.2",
+    "json-stable-stringify": "^1.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.20.0",
+    "pino": "^10.3.1",
+    "pino-pretty": "^13.1.3",
+    "qrcode": "^1.5.4",
+    "uuid": "^13.0.0",
+    "zod": "^3.25.76"
+  },
+  "scripts": {
+    "test": "npx hardhat test",
+    "node": "npx hardhat node",
+    "deploy": "npx hardhat run scripts/deploy.ts --network localhost",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.ts --network sepolia",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "frontend": "npx http-server . -p 8080",
+    "clean": "npx hardhat clean",
+    "compile": "npx hardhat compile"
+  },
+  "author": "MIT Blockchain Lab",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HuynhHao080/Blockchain-lab.git"
+  },
+  "keywords": [
+    "blockchain",
+    "certificate",
+    "verify",
+    "smart-contract",
+    "solidity",
+    "mit-blockcert"
+  ]
+}
